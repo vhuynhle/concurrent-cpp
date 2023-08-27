@@ -17,3 +17,5 @@ if (MSVC)
 else()
     add_compile_options(-Wall -Wextra -pedantic -Werror)
 endif()
+
+add_subdirectory(03-multithreading)
