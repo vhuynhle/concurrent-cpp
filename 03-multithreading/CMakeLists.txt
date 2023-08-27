@@ -1,3 +1,5 @@
 add_executable(std_thread std_thread.cpp)
 add_executable(threadWithoutJoin threadWithoutJoin.cpp)
 add_executable(threadWithJoin threadWithJoin.cpp)
+add_executable(threadArguments threadArguments.cpp)
+add_executable(threadArgumentsFixed threadArgumentsFixed.cpp)
