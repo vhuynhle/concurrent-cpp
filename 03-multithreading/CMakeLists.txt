@@ -17,3 +17,5 @@ add_executable(SingletonCallOnce SingletonCallOnce.cpp)
 add_executable(SingletonStatic SingletonStatic.cpp)
 add_executable(ThreadLocal ThreadLocal.cpp)
 add_executable(ConditionVariable ConditionVariable.cpp)
+
+add_executable(InvokeCallback InvokeCallback.cpp)
