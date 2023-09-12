@@ -19,3 +19,4 @@ add_executable(ThreadLocal ThreadLocal.cpp)
 add_executable(ConditionVariable ConditionVariable.cpp)
 
 add_executable(InvokeCallback InvokeCallback.cpp)
+add_executable(SignalStopRequests SignalStopRequests.cpp)
