@@ -10,6 +10,8 @@ public:
         return *instance;
     }
 
+    Singleton(Singleton const&) = delete;
+
 private:
     static std::once_flag oflag;
     static Singleton* instance;
