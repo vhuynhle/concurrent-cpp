@@ -34,3 +34,4 @@ add_executable(DotProductsAsync DotProductsAsync.cpp)
 
 add_executable(PackagedTask PackagedTask.cpp)
 add_executable(PackagedTaskReuse PackagedTaskReuse.cpp)
+add_executable(PromiseFuture PromiseFuture.cpp)
