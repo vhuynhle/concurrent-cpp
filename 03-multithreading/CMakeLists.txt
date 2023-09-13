@@ -31,3 +31,5 @@ add_executable(FulltimeParttimeWorkers FulltimeParttimeWorkers.cpp)
 add_executable(AsyncLazy AsyncLazy.cpp)
 add_executable(FireAndForgetFutures FireAndForgetFutures.cpp)
 add_executable(DotProductsAsync DotProductsAsync.cpp)
+
+add_executable(PackagedTask PackagedTask.cpp)
