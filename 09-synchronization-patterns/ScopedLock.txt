@@ -1,0 +1,1 @@
+This is implemented by std::lock_guard, std::scoped_lock, std::unique_lock, std::shared_lock.
