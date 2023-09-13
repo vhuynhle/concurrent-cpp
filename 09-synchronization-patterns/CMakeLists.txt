@@ -1,2 +1,3 @@
 add_executable(CopiedValueDataRace CopiedValueDataRace.cpp)
 add_executable(PerConstReference PerConstReference.cpp)
+add_executable(CopiedLifetimeIssues CopiedLifetimeIssues.cpp)
