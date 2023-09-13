@@ -29,3 +29,4 @@ add_executable(Workers Workers.cpp)
 add_executable(FulltimeParttimeWorkers FulltimeParttimeWorkers.cpp)
 
 add_executable(AsyncLazy AsyncLazy.cpp)
+add_executable(FireAndForgetFutures FireAndForgetFutures.cpp)
