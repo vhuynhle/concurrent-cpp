@@ -26,3 +26,4 @@ add_executable(ThreadSynchronizationSemaphore
 
 add_executable(BossWorker BossWorker.cpp)
 add_executable(Workers Workers.cpp)
+add_executable(FulltimeParttimeWorkers FulltimeParttimeWorkers.cpp)
