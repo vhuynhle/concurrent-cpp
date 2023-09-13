@@ -39,3 +39,5 @@ add_executable(WaitFor WaitFor.cpp)
 add_executable(SharedFuture SharedFuture.cpp)
 add_executable(PromiseFutureExeption PromiseFutureExeption.cpp)
 add_executable(PromiseFutureSynchronization PromiseFutureSynchronization.cpp)
+
+add_executable(SynchronizedOutput SynchronizedOutput.cpp)
