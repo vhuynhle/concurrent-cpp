@@ -20,3 +20,6 @@ add_executable(ConditionVariable ConditionVariable.cpp)
 
 add_executable(InvokeCallback InvokeCallback.cpp)
 add_executable(SignalStopRequests SignalStopRequests.cpp)
+
+add_executable(ThreadSynchronizationSemaphore
+  ThreadSynchronizationSemaphore.cpp)
