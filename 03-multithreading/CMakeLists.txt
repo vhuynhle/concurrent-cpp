@@ -33,3 +33,4 @@ add_executable(FireAndForgetFutures FireAndForgetFutures.cpp)
 add_executable(DotProductsAsync DotProductsAsync.cpp)
 
 add_executable(PackagedTask PackagedTask.cpp)
+add_executable(PackagedTaskReuse PackagedTaskReuse.cpp)
