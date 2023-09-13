@@ -9,13 +9,11 @@
 struct Div {
     void operator()(std::promise<int>&& intPromise, int a, int b)
     {
-        try {
-            if (b == 0) {
-                throw std::runtime_error { std::format("Division by zero: {}/{}", a, b) };
-            }
+        if (b == 0) {
+            const auto error_message = std::format("Division by zero: {}/{}", a, b);
+            intPromise.set_exception(std::make_exception_ptr(std::runtime_error { error_message }));
+        } else {
             intPromise.set_value(a / b);
-        } catch (...) {
-            intPromise.set_exception(std::current_exception());
         }
     }
 };
