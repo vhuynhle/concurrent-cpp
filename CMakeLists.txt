@@ -19,3 +19,4 @@ endif()
 
 add_subdirectory(03-multithreading)
 add_subdirectory(06-case-study)
+add_subdirectory(09-synchronization-patterns)
