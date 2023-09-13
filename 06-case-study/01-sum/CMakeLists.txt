@@ -1,0 +1,4 @@
+add_executable(CalculateWithLoop CalculateWithLoop.cpp)
+add_executable(CalculateWithAccumulate CalculateWithAccumulate.cpp)
+add_executable(CalculateWithLock CalculateWithLock.cpp)
+add_executable(CalculateWithAtomic CalculateWithAtomic.cpp)
