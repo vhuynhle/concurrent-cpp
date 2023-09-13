@@ -23,3 +23,5 @@ add_executable(SignalStopRequests SignalStopRequests.cpp)
 
 add_executable(ThreadSynchronizationSemaphore
   ThreadSynchronizationSemaphore.cpp)
+
+add_executable(BossWorker BossWorker.cpp)
