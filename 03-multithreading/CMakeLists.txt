@@ -36,5 +36,5 @@ add_executable(PackagedTask PackagedTask.cpp)
 add_executable(PackagedTaskReuse PackagedTaskReuse.cpp)
 add_executable(PromiseFuture PromiseFuture.cpp)
 add_executable(WaitFor WaitFor.cpp)
-
 add_executable(SharedFuture SharedFuture.cpp)
+add_executable(PromiseFutureExeption PromiseFutureExeption.cpp)
