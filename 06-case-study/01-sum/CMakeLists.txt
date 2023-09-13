@@ -4,3 +4,6 @@ add_executable(CalculateWithLock CalculateWithLock.cpp)
 add_executable(CalculateWithAtomic CalculateWithAtomic.cpp)
 
 add_executable(LocalVariable LocalVariable.cpp)
+add_executable(LocalVariableAtomic LocalVariableAtomic.cpp)
+add_executable(LocalVariableAtomicRelaxed LocalVariableAtomicRelaxed.cpp)
+add_executable(TaskSummation TaskSummation.cpp)
