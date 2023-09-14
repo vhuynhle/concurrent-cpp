@@ -5,3 +5,5 @@ add_executable(CopiedLifetimeIssues CopiedLifetimeIssues.cpp)
 add_executable(Strategy Strategy.cpp)
 add_executable(StrategizedLockingRuntime StrategizedLockingRuntime.cpp)
 add_executable(StrategizedLockingCompileTime StrategizedLockingCompileTime.cpp)
+add_executable(StrategizedLockingCompileTimeWithConcept
+  StrategizedLockingCompileTimeWithConcept.cpp)
