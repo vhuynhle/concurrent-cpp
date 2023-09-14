@@ -3,3 +3,4 @@ add_executable(PerConstReference PerConstReference.cpp)
 add_executable(CopiedLifetimeIssues CopiedLifetimeIssues.cpp)
 
 add_executable(Strategy Strategy.cpp)
+add_executable(StrategizedLockingRuntime StrategizedLockingRuntime.cpp)
