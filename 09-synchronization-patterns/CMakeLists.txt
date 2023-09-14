@@ -7,3 +7,5 @@ add_executable(StrategizedLockingRuntime StrategizedLockingRuntime.cpp)
 add_executable(StrategizedLockingCompileTime StrategizedLockingCompileTime.cpp)
 add_executable(StrategizedLockingCompileTimeWithConcept
   StrategizedLockingCompileTimeWithConcept.cpp)
+
+add_executable(ThreadsafeInterface ThreadsafeInterface.cpp)
